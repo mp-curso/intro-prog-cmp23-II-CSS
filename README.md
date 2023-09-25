@@ -31,9 +31,6 @@ font-family, font-size, font-weight, background-color, height, width, line-heigh
 Classes e identificadores
 Unidade de medidas: px e %
 
-👩🏾‍💻 4 ✓ 11/05 | CSS - Mão na massa:
-Codificar a estrutura CSS do portfólio durante as explicações das propriedades.
-
 <br>
 
 ## `Apresentação da aula`
