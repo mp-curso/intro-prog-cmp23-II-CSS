@@ -27,9 +27,14 @@ O que são os elementos, propriedades e valores?
 
 💻 ✓ 26/09 | CSS - Aprofundamento:
 Propriedades que vamos utilizar:
+list-style-type, text-decoration, margin e padding 
+classes e identificadores
+unidade de medidas: px e %
 font-family, font-size, font-weight, background-color, height, width, line-height, font-style, list-style-type, text-decoration, margin e padding
-Classes e identificadores
-Unidade de medidas: px e %
+
+👩🏾‍💻 ✓ 28/09 | CSS - Introdução:
+codificação do CSS do projeto final
+explicação das propriedades utilizadas
 
 <br>
 
