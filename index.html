@@ -1,60 +1,116 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
 
 <head>
-  <title>Aprendendo CSS</title>
-  <meta name="descrição do meu site" content="meu primeiro site com HTML">
-  <meta charset="utf-8">
-  <!-- <style>
-    body {
-        background-color:aqua;
-    }
-    h2{
-        color:blueviolet
-    }
-  </style> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu portfólio</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- chamando o ícone na aba do navegador -->
+  <link rel="shortcut icon" href="./img/foto-perfil.png">
+  <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
 </head>
 
 <body>
-  <h1 id="titulo">São Sebastião</h1>
-  <p class="paragrafo">
-    Lorem ipsum dolor sit amet,
-    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    <!-- tag de quebra de linha -->
-    <br /><br />
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </p>
+  <!-- cabeçalho da nossa página, visível ao usuário -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#formacao">Formação</a> </li>
+        <li><a href="#portifolio">Portfólio</a></li>
+        <li><a href="#contato">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <h1>Inserindo imagens</h1>
-  <h2>Viola</h2>
-  <img src="img/viola.jpeg" width="320" height="205" />
-  <h2>Issa</h2>
-  <img src="img/issa.png" width="320" height="205" />
-  <br><br>
+  <!-- corpo da nossa página, visível ao usuário -->
+  <main>
+    <section>
+      <article>
+        <div>
+          <img src="img/foto-perfil.png">
+        </div>
+        <div>
+          <h1 id="minhaNav">Amanda Silva</h1>
+          <h2>Desenvolvedora Front-end</h2>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. In hac habitasse platea dictumst. Nulla facilisi. Nulla id luctus tortor, id hendrerit
+            metus. Donec vulputate tellus sed sollicitudin porta. Aliquam turpis leo, pellentesque et velit a, sagittis scelerisque quam. Suspendisse imperdiet molestie leo. Proin sed imperdiet erat, UTF-8
+          </p>
+        </div>
+      </article>
+    </section>
 
-  <h1 id="estados">Estados e algumas capitais</h1>
-  <section class="card">
-    <h2 class="card-titulo">Rio Branco</h2>
-    <img src="img/rioBranco.png" class="card-imagem">
-    <p class="card-text">
-      <strong>Rio Branco</strong> é a capital do estado do Acre (AC). <br> <b> Área territorial:</b> 8.835km² <br> <b>População: </b>350mil habitantes.
-      <br> <b>Curiosidade:</b> de “Capital da Natureza”, em razão dos seus atributos naturais.
-    </p>
-  </section>
+    <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
+    <section id="formacao">
+      <article>
+        <div>
+          <h3>Formação</h3>
+        </div>
 
-  <section>
-    <h2>São Paulo</h2>
-    <p> <strong>São Paulo</strong> capital do estado de São Paulo <br>
-      <b>Área territorial:</b> 1.521 km² <br> <b>População:</b> 12 milhões de habitantes <br>
-      <b>Curiosidade:</b> maior cidade do país é considerada uma metrópole mundial brasileira.
-    </p>
-  </section>
+        <div>
+          <ul>
+            <li>
+              <p>Introdução Tecnológica</p>
+              <a href="https://minasprogramam.com/" target="_blank" >Minas Programam</a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
+              </p>
+            </li>
+
+            <li>
+              <p>Analise e desenvolvimento de sistemas</p>
+              <a href="https://www.ifsp.edu.br/" target="_blank">IFSP</a>
+              <p >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+      </article>
+    </section>
+
+    <section id="portifolio">
+      <article>
+        <div>
+          <h3>Blog</h3>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <p>Mulheres que fazem história</p>
+              <p>Revelo</p>
+              <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank"> 27 desenvolvedoras brasileiras para se inspirar em 2022</a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
+            </li>
+            <li>
+              <p>Relatório de impacto</p>
+              <p>Pretalab</p>
+              <a href="https://relatoriodeimpacto.pretalab.com/" target="_blank">Objetivos de Desenvolvimento Sustentável (ODS) da ONU no Brasil.</a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- rodapé da nossa página, visível ao usuário -->
+  <footer id="contato">
+    <div>
+      <ul>
+        <li><i class="fas fa-envelope-square"></i><a href="mailto:amanda.adgti@gmail.com">Enviar e-mail</a></li>
+        <li href=""><i class="fab fa-linkedin"></i>amanda-silva</li>
+        <li href=""><i class="fab fa-github-square"></i>asilvaodev</li>
+      </ul>
+      <a href="#minhaNav">Volte ao topo</a>
+    </div>
+  </footer>
 
 </body>
 
-</html>
+</html> 
