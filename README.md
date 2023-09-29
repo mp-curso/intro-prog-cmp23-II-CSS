@@ -37,6 +37,11 @@ codificação do CSS do projeto final
 explicação das propriedades utilizadas
 
 <br>
+## `Protótipo do projeto final`
+
+- [link do protótipo do projeto final](https://www.figma.com/file/JDuzZm11EgjSQM9KrviSU1/Portfolio?node-id=0%3A1)
+
+---
 
 ## `Apresentação da aula`
 
