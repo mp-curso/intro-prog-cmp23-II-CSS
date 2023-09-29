@@ -14,10 +14,12 @@
 
 <body>
   <!-- cabeçalho da nossa página, visível ao usuário -->
-  <header>
+  <header class="header-menu">
     <nav>
-      <ul>
-        <li><a href="#formacao">Formação</a> </li>
+      <ul class="lista-menu">
+        <li>
+          <a href="#formacao">Formação</a> 
+        </li>
         <li><a href="#portifolio">Portfólio</a></li>
         <li><a href="#contato">Contatos</a></li>
       </ul>
@@ -26,16 +28,16 @@
 
   <!-- corpo da nossa página, visível ao usuário -->
   <main>
-    <section>
-      <article>
+    <section class="principal">
+      <article class="subcontainer-principal container">
         <div>
           <img src="img/foto-perfil.png">
         </div>
         <div>
-          <h1 id="minhaNav">Amanda Silva</h1>
-          <h2>Desenvolvedora Front-end</h2>
+          <h1 class="nome-completo" id="minhaNav">Amanda Silva</h1>
+          <h2 class="profissao">Desenvolvedora Front-end</h2>
         </div>
-        <div>
+        <div class="texto-sobre">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. In hac habitasse platea dictumst. Nulla facilisi. Nulla id luctus tortor, id hendrerit
             metus. Donec vulputate tellus sed sollicitudin porta. Aliquam turpis leo, pellentesque et velit a, sagittis scelerisque quam. Suspendisse imperdiet molestie leo. Proin sed imperdiet erat, UTF-8
@@ -46,25 +48,25 @@
 
     <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
     <section id="formacao">
-      <article>
+      <article class="container article-lista">
         <div>
-          <h3>Formação</h3>
+          <h3 class="topico-principal">Formação</h3>
         </div>
 
-        <div>
+        <div class="lista-item">
           <ul>
             <li>
-              <p>Introdução Tecnológica</p>
-              <a href="https://minasprogramam.com/" target="_blank" >Minas Programam</a>
-              <p>
+              <p class="lista-titulo">Introdução Tecnológica</p>
+              <a href="https://minasprogramam.com/" target="_blank" class="lista-local">Minas Programam</a>
+              <p class="lista-descricao">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
               </p>
             </li>
 
             <li>
-              <p>Analise e desenvolvimento de sistemas</p>
-              <a href="https://www.ifsp.edu.br/" target="_blank">IFSP</a>
-              <p >
+              <p class="lista-titulo">Analise e desenvolvimento de sistemas</p>
+              <a href="https://www.ifsp.edu.br/" target="_blank" class="lista-local">IFSP</a>
+              <p class="lista-descricao">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
               </p>
             </li>
