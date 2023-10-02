@@ -137,3 +137,30 @@ centro do browser. O container é invisível. */
   color: #828282;
   font-weight: 300;
 }
+
+.rodape{
+  background-color: #724796;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.links{
+  color: #FFF; 
+  text-decoration: none;
+}
+
+.lista-rodape li{
+  color: #FFF;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.estilo-icone{
+ font-size: 32px;
+ margin-right: 10px;
+}
+
